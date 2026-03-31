@@ -1,12 +1,13 @@
 [tool.poetry]
-name = "template-code"
-version = "0.1.0"
+name = "tp_python_code"
+version = "0.2.0"
 description = ""
-authors = ["Thibaud ROBIN <trobin@esgi.com>"]
+authors = ["Mathias EMON <m.emon@myskolae.fr>"]
 readme = "README.md"
 packages = [
   { include = "src" },
   { include = "tp1", from = "src" },
+  { include = "tp2", from = "src" },
   { include = "tp3", from = "src" },
 ]
 
@@ -19,6 +20,7 @@ fpdf2 = "^2.8.1"
 pytest = "^8.3.5"
 reportlab = "^4.4.9"
 matplotlib = "^3.10.8"
+capstone = "^5.0.1"
 
 [build-system]
 requires = ["poetry-core"]
@@ -26,4 +28,5 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 tp1 = "tp1.main:main"
+tp2 = "tp2.main:main"
 tp3 = "tp3.main:main"
