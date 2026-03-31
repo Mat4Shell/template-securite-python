@@ -17,6 +17,8 @@ scapy = "^2.6.0"
 pygal = "^3.0.5"
 fpdf2 = "^2.8.1"
 pytest = "^8.3.5"
+reportlab = "^4.4.9"
+matplotlib = "^3.10.8"
 
 [build-system]
 requires = ["poetry-core"]
