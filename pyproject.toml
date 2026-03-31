@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "tp_python_code"
-version = "0.3.0"
+version = "1.0.0"
 description = ""
 authors = ["Mathias EMON <m.emon@myskolae.fr>"]
 readme = "README.md"
@@ -9,6 +9,7 @@ packages = [
   { include = "tp1", from = "src" },
   { include = "tp2", from = "src" },
   { include = "tp3", from = "src" },
+  { include = "tp4", from = "src" }
 ]
 
 [tool.poetry.dependencies]
@@ -23,6 +24,8 @@ matplotlib = "^3.10.8"
 capstone = "^5.0.1"
 pytesseract = "^0.3.10"
 pillow = "^12.1.1"
+pwntools = "^4.15.0"
+
 
 [build-system]
 requires = ["poetry-core"]
@@ -32,3 +35,4 @@ build-backend = "poetry.core.masonry.api"
 tp1 = "tp1.main:main"
 tp2 = "tp2.main:main"
 tp3 = "tp3.main:main"
+tp4 = "tp4.main:main"
