@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "tp_python_code"
-version = "0.2.0"
+version = "0.3.0"
 description = ""
 authors = ["Mathias EMON <m.emon@myskolae.fr>"]
 readme = "README.md"
@@ -21,6 +21,8 @@ pytest = "^8.3.5"
 reportlab = "^4.4.9"
 matplotlib = "^3.10.8"
 capstone = "^5.0.1"
+pytesseract = "^0.3.10"
+pillow = "^12.1.1"
 
 [build-system]
 requires = ["poetry-core"]
